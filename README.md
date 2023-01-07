@@ -1,4 +1,4 @@
-# problem-slolving
+# Problem solving
 
 Setup:
 ```
@@ -10,7 +10,7 @@ Creating new problem:
 npm run add-problem -- --name=new-problem
 ```
 
-Running tests for problem: 
+Running tests for the problem: 
 ```
 npm test -- new-problem --watch
 ```
