@@ -51,10 +51,13 @@ function getEmptyTestFile(problemName) {
 
 describe('${problemName}', () => {
     it('1', () => {
+        expect(${problemName}()).toEqual();
     });
     it('2', () => {
+        expect(${problemName}()).toEqual();
     });
     it('3', () => {
+        expect(${problemName}()).toEqual();
     });
 });
 `;
